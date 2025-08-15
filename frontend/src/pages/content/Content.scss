@@ -1,0 +1,11 @@
+.content {
+  &__textarea {
+    width: 99vw;
+    height: 99vh;
+    resize: none;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+}

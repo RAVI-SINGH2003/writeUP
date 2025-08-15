@@ -1,0 +1,28 @@
+.home {
+    &__header {
+        padding: 20px;
+        background-color: rgb(111, 108, 108);
+        color: white;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    &__sub-container {
+        width: 100vw;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    &__input {
+        padding : 10px;
+        width: 300px;
+    }
+
+    &__button {
+        padding : 10px;
+        cursor: pointer;
+    }
+}

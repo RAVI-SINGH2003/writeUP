@@ -18,7 +18,7 @@ const Home = () => {
 
   return (
     <div>
-      <p className="home__header">WriteUP</p>
+      <p className="home__header">WriteUpp</p>
       <form onSubmit={handleFormSubmit} className="home__sub-container">
         <input
           type="text"

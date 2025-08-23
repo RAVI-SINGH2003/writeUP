@@ -42,7 +42,8 @@ const Content = () => {
   const handleContentChange = (e: ChangeEvent<HTMLTextAreaElement>) => {
     const value = e.target.value;
     setContent(value);
-
+    
+    //debouncing...
     if (saveTimer) clearTimeout(saveTimer);
     saveTimer = setTimeout(() => {
       saveContent(value);
